@@ -12,4 +12,26 @@ patterns = {
 
 }
 
+# Sample data to test the regex patterns
+sample_data = """
+Email: user@example.com
+Another Email: firstname.lastname@company.co.uk
+Website: https://www.example.com
+Subdomain URL: https://subdomain.example.org/page
+HTML tag1:<p>
+HTML tag2:<div class="example">
+HTML tag3:<img src="image.jpg" alt="description">
+Phone1: (123) 456-7890
+Phone2: 123-456-7890
+Phone3: 123.456.7890
+Price: $19.99 and $1,234.56
+Card1: 1234 5678 9012 3456
+Card2: 1234-5678-9012-3456
+time1: 14:30 PM
+time2: 02:59
+"""
+
+
+
+
 
