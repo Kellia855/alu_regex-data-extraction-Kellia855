@@ -32,6 +32,14 @@ time2: 02:59
 """
 
 
+#Define a function to extract and print data using regex
 
-
-
+def extract_data(pattern,text):
+    for label, regex in patterns.items():
+        matches = re.findall(regex, text)
+        print(f"\n{label.upper()} matches:")
+        if matches:
+            for match in matches:
+                print("-", match)
+        else:
+            print("No matches found.")
