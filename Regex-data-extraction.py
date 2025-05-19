@@ -43,3 +43,7 @@ def extract_data(pattern,text):
                 print("-", match)
         else:
             print("No matches found.")
+
+
+# Run the function with the sample data
+extract_data(patterns, sample_data)
